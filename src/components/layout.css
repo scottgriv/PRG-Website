@@ -1,0 +1,750 @@
+/* CSS Style Sheet for the layout of the website */
+
+/* Import Roboto font */
+/* Regular style */
+@font-face {
+  font-family: "SourceCodePro";
+  src: url("/fonts/SourceCodePro/SourceCodePro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Regular italic style */
+@font-face {
+  font-family: "SourceCodePro";
+  src: url("/fonts/SourceCodePro/SourceCodePro-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Bold style */
+@font-face {
+  font-family: "SourceCodePro";
+  src: url("/fonts/SourceCodePro/SourceCodePro-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.showcase-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.showcase-item {
+  text-align: center;
+}
+
+.showcase-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Circular images */
+  margin-bottom: 10px; /* Space between image and text */
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+.guideline-image {
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+.showcase-link {
+  display: block;
+  color: #6236FF; /* Adjust color as needed */
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.showcase-username {
+  font-weight: bold;
+}
+
+
+
+body {
+  font-family: "SourceCodePro", Arial, sans-serif; /* Use custom font */
+  font-weight: 400; /* This will use the regular font */
+  font-size: 20px; /* Set default font size */
+  background-color: #3E1099;
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "SourceCodePro", Arial, sans-serif; /* Use custom font */
+}
+
+footer {
+  font-family: "SourceCodePro", Arial, sans-serif; /* Use custom font */
+}
+
+a {
+  color: #6236FF; /* Yellow links */
+}
+
+.title-container {
+  text-align: center;
+}
+
+.desktop-logo,
+.mobile-logo {
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.landing-logo {
+  border-radius: 15px;
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.landing-logo:hover {
+  transform: scale(1.03); /* Enlarge the icon on hover */
+}
+
+.landing-container h1,
+.landing-container h2,
+.landing-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#landing-footer {
+  height: 100px;
+  width: 100px;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the space as needed */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.landing-subtitle {
+  color: #6236FF
+}
+
+#pagecontent {
+  background-color: black;
+  padding: 0;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#menutabs {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#menutabs ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  font-weight: bold; /* Makes the text non-bold */
+}
+
+#menutabs li {
+  padding: 1px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition for color changes */
+}
+
+#menutabs a {
+  font-family: "SourceCodePro", Arial, sans-serif; /* Use custom font */
+  font-weight: 700; /* This will use the bold font */
+  font-size: 16px; /* Set default font size */
+  background-color: #6236FF;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px; /* Rounded corners */
+  display: block; /* To allow the anchor to take full width and height of its parent li */
+}
+
+#menutabs a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* This will highlight the currently active tab with white background */
+#menutabs a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* This is to ensure that visited links retain the intended style */
+#menutabs a:visited {
+  color: #000;
+}
+
+#pagefoot {
+  font-size: 0.8em; /* Adjust the font size to make it smaller */
+  color: #555; /* Font color */
+  text-align: center; /* Center the text */
+  margin: 0 auto;
+  max-width: 1200px; /* Maximum width for the content */
+  padding: 15px; /* Padding on the sides for responsiveness */
+}
+
+#contentarea {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Ensures the div takes the full width */
+}
+
+#contentarea main {
+  max-width: 800px;
+  width: 100%; /* Ensures the main content doesn't exceed the max-width */
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.about-container,
+.about-container-flipped {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.photo-container img {
+  max-width: 250px;
+  border-radius: 50%; /* Makes the image circular, remove if not needed */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a light shadow */
+}
+
+.description-container {
+  flex: 1;
+}
+
+.about-container .photo-container {
+  order: 0;
+}
+
+.about-container .description-container {
+  order: 1;
+}
+
+/* Flipped about version */
+.about-container-flipped .photo-container {
+  order: 1; /* move the photo to the end */
+}
+
+.about-container-flipped .description-container {
+  order: 0; /* move the description to the start */
+}
+
+#github-star {
+  color: #6236FF;
+}
+
+#github-fork {
+  color: #6236FF;
+}
+
+.closing-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack the children vertically */
+  justify-content: center; /* Center children along the main axis */
+  align-items: center; /* Center children along the cross axis */
+  text-align: center;
+}
+
+.social-links-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px; /* Space between icons */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.social-links a {
+  color: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+.social-links a:hover {
+  color: #680F7F; /* Green color for links hover effect, change as needed */
+}
+
+/* Single row of social links */
+.social-links-single a {
+  color: #fff; /* Icon color */
+  font-size: 24px; /* Icon size */
+}
+
+.social-links-single a:hover {
+  color: #680F7F; /* Green color for links hover effect, change as needed */
+}
+
+.fa-code-fork {
+  font-size: 22px; /* Shrink Fork Icon size */
+}
+
+.align-left {
+  text-align: left;
+}
+
+.products-container,
+.projects-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  margin-right: 2rem;
+  width: 125px;
+  flex-shrink: 0;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Ensure the sidebar buttons stack vertically */
+  gap: 2px;
+}
+
+.sidebar li {
+  padding: 1px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button {
+  background-color: #6236FF;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: flex; /* Added for flexbox */
+  align-items: center; /* Vertical centering with flexbox */
+  justify-content: center; /* Horizontal centering with flexbox */
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+  text-align: center; /* This will ensure any potential multi-line text is also centered */
+  width: 100%;
+  height: 34px;
+  font-weight: normal; /* Makes the text non-bold */
+}
+
+.sidebar h3 {
+  font-family: "SourceCodePro", Arial, sans-serif; /* Use custom font */
+  font-weight: 700; /* This will use the bold font */
+  font-size: 15px; /* Set default font size */
+}
+
+.sidebar button:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none; /* Removed the underline on hover */
+}
+
+.sidebar button:focus {
+  background-color: #fff; /* Highlight on focus */
+  color: #000;
+  outline: none;
+}
+
+/* Make the side bar button appear active by default */
+.sidebar button.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: inherit;
+  color: inherit;
+  text-align: inherit;
+}
+
+button:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.company-thumbnail {
+  width: 40px;
+  height: 40px;
+}
+
+.company-thumbnail-contact {
+  width: 65px;
+  height: 65px;
+}
+
+.projects-image {
+  border-radius: 25px;
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.category-image {
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.projects-image-small {
+  transition: transform 0.3s; /* Smooth transform transition */
+  width: 25%;
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.projects-image-small-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.banner-image {
+  border-radius: 15px;
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.about-image {
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.app-image {
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+.mobile-logo {
+  display: none;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(3, auto); /* Three rows */
+  gap: 10px; /* Gap between icons */
+}
+
+.icon-container {
+  text-align: center; /* Center the icons */
+}
+
+/* Place the first icon in the middle column of the first row */
+.app-grid > .icon-container:nth-child(1) {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+/* Manually place other icons */
+.app-grid > .icon-container:nth-child(2) {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(3) {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(4) {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.app-grid > .icon-container:nth-child(5) {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.app-grid > .icon-container:nth-child(6) {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.app-grid > .icon-container:nth-child(7) {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+/* Optional styling for the icons */
+.icon-container img {
+  width: 200px;
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+/* Scale effect on hover for the icons */
+.icon-container:hover img {
+  transform: scale(1.08); /* Enlarge the icon on hover */
+}
+
+/* Scale effect on hover for the icons */
+.category-image:hover,
+.projects-image:hover,
+.projects-image-small:hover,
+.banner-image:hover,
+.about-image:hover {
+  transform: scale(1.08); /* Enlarge the icon on hover */
+}
+
+.guideline-image:hover
+{
+  transform: scale(1.15); /* Enlarge the icon on hover */
+}
+
+.showcase-image:hover
+{
+  transform: scale(1.25); /* Enlarge the icon on hover */
+}
+
+.icon-container[href="https://github.com/scottgriv/Post.e"] img
+{
+  border: 2px solid rgb(46, 46, 46);
+  border-radius: 45px;
+}
+
+.fork-links {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* By default, show everything */
+.responsive-hide {
+  display: inline;
+}
+
+/* Scrolling Popup Arrow Button */
+.scroll-to-top {
+  background: #680F7F;
+  border: none;
+  border-radius: 50%; /* Makes it a circle */
+  padding: 0;
+  width: 65px; /* Set width and height to be the same for a circle */
+  height: 65px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  display: flex; /* Ensures the icon centers inside the button */
+  justify-content: center; /* Centers the icon horizontally */
+  align-items: center; /* Centers the icon vertically */
+  cursor: pointer;
+  z-index: 1000; /* Ensure it's above other content */
+  position: fixed;
+  bottom: 75px; /* Closer to the bottom edge */
+  right: 75px; /* Closer to the right edge */
+  cursor: pointer;
+  opacity: 0; /* Start with the button invisible */
+  visibility: hidden; /* Hide the button */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out; /* Smooth transition for both opacity and visibility */
+}
+
+.scroll-to-top.visible {
+  opacity: 1; /* Full visibility when the button should be shown */
+  visibility: visible; /* Make the button visible */
+}
+
+.scroll-to-top i {
+  font-size: 24px; /* Larger font size for the icon */
+  color: #fff;
+}
+
+.block-quote {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; /* This will use the regular weight */
+  font-style: italic; /* This will use the italic style */
+  color: #7f7f7f; /* Font color */
+}
+
+/* Media Queries */
+/* When screen width is less than 768px, hide elements with the 'responsive-hide' class */
+@media screen and (max-width: 804px) {
+  .responsive-hide {
+    display: none;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  /* Reset box-sizing */
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+  .landing-title {
+    font-size: 25px;
+  }
+
+  .landing-subtitle {
+    font-size: 15px;
+  }
+
+  /* Show the "Us" and "NOL" in About and Contact nav items*/
+  .responsive-hide {
+    display: inline;
+  }
+
+  /* Round the Post.e icon due to a black background */
+  .icon-container[href="https://github.com/scottgriv/Post.e"] img
+  {
+    border-radius: 30px;
+  }
+
+  body {
+    padding: 15px;
+  }
+
+  .desktop-logo {
+    display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #pagecontent {
+    border-radius: 5px;
+    box-shadow: none;
+    width: 100%; /* Ensures page content fits the screen width */
+    max-width: none; /* Overrides any max-width set elsewhere */
+  }
+
+  #menutabs,
+  .sidebar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  #menutabs ul {
+    flex-direction: column;
+  }
+
+  #menutabs li:first-child a {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  #menutabs li:last-child a {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  #menutabs li:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .about-container,
+  .about-container-flipped {
+    flex-direction: column;
+  }
+
+  .projects-container,
+  .products-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .sidebar ul li {
+    margin-bottom: 5px;
+  }
+
+  #contentarea main {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  #pagecontent,
+  #contentarea,
+  #contentarea main {
+    overflow-x: hidden;
+  }
+
+  img,
+  video,
+  iframe,
+  .projects-image,
+  .banner-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Set a height, or it will be as tall as its content */
+  }
+
+  .title-header-large {
+    font-size: 30px;
+  }
+
+  .title-header-small {
+    font-size: 25px;
+  }
+
+  #pagefoot {
+    font-size: 10px;
+  }
+
+  .about-container-flipped .photo-container {
+    order: 0;
+  }
+
+  .about-container-flipped .description-container {
+    order: 1;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .photo-container img {
+    margin: 0 auto;
+  }
+
+  .scroll-to-top {
+    width: 50px; /* Set width and height to be the same for a circle */
+    height: 50px;
+    bottom: 35px; /* Closer to the bottom on small screens */
+    right: 35px; /* Closer to the right on small screens */
+  }
+}
