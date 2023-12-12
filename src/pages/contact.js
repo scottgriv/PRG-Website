@@ -93,7 +93,7 @@ export default function Contact() {
       </div>
       <div className="social-links-wrapper">
         <div className="social-links">
-          <a href="https://github.com/Night-Owl-Labs">
+          <a href="https://nightowllabs.io">
           <img
             src="/images/company/nol-footer.png"
             alt="Night Owl Labs"
