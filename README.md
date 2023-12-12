@@ -22,7 +22,7 @@
 <h1 align="center">The Official Website for PRG</h1>
 
 <p align="center">
-    <a href="https://app.netlify.com/sites/beeheard/deploys"><img src="https://api.netlify.com/api/v1/badges/83152ddb-a746-4d67-ac04-939000f883a5/deploy-status" alt="Gatsby Badge" /></a>
+    <a href="https://app.netlify.com/sites/prgoptimized/deploys"><img src="https://api.netlify.com/api/v1/badges/31a0ce23-4aee-4602-9af7-beed442d5904/deploy-status" alt="Netlify Status" /></a>
 </p>
 
 Welcome to the Official Website for **PRG**. 
