@@ -14,7 +14,7 @@ export default function Support() {
           target="_blank"
           rel="noreferrer"
         >
-          <b>Buy Me a Coffee</b>
+          <b>Buy Me a Coffee</b>.
         </a>{" "}
       </p>
       <p>More ways to support PRG coming soon!</p>

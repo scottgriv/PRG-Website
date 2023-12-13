@@ -71,6 +71,8 @@ export default function Guidelines() {
             </a>
             <p>Guidelines for creating your own brand for your project.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -95,8 +97,6 @@ export default function Guidelines() {
             </a>
             <p>Guidelines for repository READMEs.</p>
           </div>
-        </div>
-        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -121,6 +121,8 @@ export default function Guidelines() {
             </a>
             <p>Guidelines for repository structure and files.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -170,7 +172,6 @@ export default function Guidelines() {
             <p>An example PRG Portfolio from PRG's creator.</p>
           </div>
         </div>
-
         <div style={{ display: "table-row" }}>
           <div
             style={{
@@ -223,6 +224,8 @@ export default function Guidelines() {
             </a>
             <p>Guide for displaying the tier badges.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -247,9 +250,6 @@ export default function Guidelines() {
             </a>
             <p>Guide for using the provided templates.</p>
           </div>
-        </div>
-
-        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -274,6 +274,8 @@ export default function Guidelines() {
             </a>
             <p>Platinum project template for your repositories.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -372,6 +374,8 @@ export default function Guidelines() {
             </a>
             <p>Connection File (PRGCF) for your repositories.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -396,9 +400,6 @@ export default function Guidelines() {
             </a>
             <p>Python script for generating the project tier table (PyRG).</p>
           </div>
-        </div>
-
-        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -423,6 +424,8 @@ export default function Guidelines() {
             </a>
             <p>Project tier table for your projects.</p>
           </div>
+        </div>
+        <div style={{ display: "table-row" }}>
           <div
             style={{
               display: "table-cell",
@@ -477,7 +480,6 @@ export default function Guidelines() {
             </p>
           </div>
         </div>
-
         <div style={{ display: "table-row" }}>
           <div
             style={{
