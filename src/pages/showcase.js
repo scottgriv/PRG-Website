@@ -39,9 +39,7 @@ export default function Showcase() {
 
   return (
     <Layout>
-      <div className="title-container">
-        <h1 className="title-header-small">Welcome to PRG! 👋</h1>
-      </div>
+      <h1 className="title-header-small">Welcome to PRG! 👋</h1>
       <h2 className="title-header-small">What is PRG?</h2>
       <p>
         <b>Personal Repository Guidelines</b>, or <b>PRG</b> for short, is a
