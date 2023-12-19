@@ -36,13 +36,13 @@ function Seo({ description, title, children }) {
       <meta name="robots" content="index, follow" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={metaDescription} />
-      <meta property="og:image" content="/images/company/prg-banner_small.png" />
+      <meta property="og:image" content="/images/company/prg-banner_social.png" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={site.siteMetadata?.author || ""} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={metaDescription} />
-      <meta name="twitter:image" content="/images/company/prg-banner_small.png" />
+      <meta name="twitter:image" content="/images/company/prg-banner_social.png" />
       <meta name="msapplication-TileColor" content="#6236FF" />
       <meta name="theme-color" content="#6236FF" />
       <link
