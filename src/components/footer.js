@@ -10,6 +10,13 @@ const Footer = () => {
         <div className="social-links-wrapper">
           <div className="social-links">
             <a
+              href="mailto:support@nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-regular fa-envelope fa-bounce"></i>
+            </a>
+            <a
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
               target="_blank"
               rel="noreferrer"
