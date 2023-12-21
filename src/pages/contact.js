@@ -12,15 +12,15 @@ export default function Contact() {
       <hr />
       <h2>Email</h2>
       <p>For general inquiries or support:</p>
-      <a href="mailto:support@nightowllabs.net" target="_blank" rel="noreferrer">
-        <i className="fa-regular fa-envelope"></i> support@nightowllabs.net
+      <a href="mailto:support@nightowllabs.io" target="_blank" rel="noreferrer">
+        <i className="fa-regular fa-envelope"></i> support@nightowllabs.io
       </a>
       <br />
       <br />
       <hr />
       <h2>Visit the Night Owl Labs Website!</h2>
       <a
-        href="https://nightowllabs.net"
+        href="https://nightowllabs.io"
         target="_blank"
         rel="noreferrer"
       >

@@ -19,7 +19,7 @@ export default function About() {
         >
           Anya Druzhenko
         </a>{" "}
-        of <a href="https://nightowllabs.net">Night Owl Labs</a>, a software and
+        of <a href="https://nightowllabs.io">Night Owl Labs</a>, a software and
         design company that specializes in crafting beautiful and functional
         software.
       </p>
@@ -39,7 +39,7 @@ export default function About() {
             <h2>Scott Grivner</h2>
           </a>
           <p>
-            Founder of <a href="https://nightowllabs.net" target="_blank" rel="noreferrer">Night Owl Labs</a>, Scott brings over a decade of
+            Founder of <a href="https://nightowllabs.io" target="_blank" rel="noreferrer">Night Owl Labs</a>, Scott brings over a decade of
             professional software engineering and design experience to the team.
             He has worked with a wide range of technologies in multiple
             industries, and is passionate about building functional and
