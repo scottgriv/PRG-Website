@@ -185,11 +185,15 @@ a {
   color: #fff;
 }
 
-/* This is to ensure that visited links retain the intended style 
+/* This is to ensure that visited links retain the intended style */
 #menutabs a:visited {
   color: white;
 }
-*/
+
+#menutabs a:visited:hover {
+  background-color: white;
+  color: black;
+}
 
 #pagefoot {
   font-size: 0.8em; /* Adjust the font size to make it smaller */
