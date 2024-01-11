@@ -173,26 +173,26 @@ a {
   border-radius: 4px; /* Rounded corners */
   display: block; /* To allow the anchor to take full width and height of its parent li */
 }
-
 #menutabs a:hover {
   background-color: #fff;
   color: #000;
 }
 
-/* This will highlight the currently active tab with white background */
-#menutabs a.active {
-  background-color: #680F7F;
-  color: #fff;
-}
-
-/* This is to ensure that visited links retain the intended style */
 #menutabs a:visited {
   color: white;
 }
 
+/* Specific rule for visited links when hovered */
 #menutabs a:visited:hover {
-  background-color: white;
   color: black;
+}
+
+/* Higher specificity for active links */
+#menutabs a.active, 
+#menutabs a.active:hover, 
+#menutabs a.active:visited {
+  background-color: #680F7F;
+  color: #fff;
 }
 
 #pagefoot {
