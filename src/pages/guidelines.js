@@ -162,7 +162,7 @@ export default function Guidelines() {
             >
               <img
                 className="guideline-image"
-                src="/images/guidelines/icon-rounded.png"
+                src="/images/guidelines/icon-website-rounded.png"
                 alt="PRG Portfolio Website"
                 style={{ maxWidth: "85px", height: "auto", width: "85px" }}
               />
