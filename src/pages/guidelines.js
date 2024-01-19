@@ -162,7 +162,7 @@ export default function Guidelines() {
             >
               <img
                 className="guideline-image"
-                src="/images/guidelines/icon-website-rounded.png"
+                src="/images/guidelines/icon-rounded.png"
                 alt="PRG Portfolio Website"
                 style={{ maxWidth: "85px", height: "auto", width: "85px" }}
               />
@@ -496,7 +496,7 @@ export default function Guidelines() {
             >
               <img
                 className="guideline-image"
-                src="/images/guidelines/icon_2-rounded.png"
+                src="/images/guidelines/icon-website-rounded.png"
                 alt="PRG's Official Website"
                 style={{ maxWidth: "85px", height: "auto", width: "85px" }}
               />
@@ -520,7 +520,7 @@ export default function Guidelines() {
             >
               <img
                 className="guideline-image"
-                src="/images/guidelines/icon_2-rounded.png"
+                src="/images/guidelines/icon-website-rounded.png"
                 alt="PRG's Official Website Repository"
                 style={{ maxWidth: "85px", height: "auto", width: "85px" }}
               />
