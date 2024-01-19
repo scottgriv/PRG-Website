@@ -47,6 +47,7 @@ If you would like to showcase your GitHub portfolio using **PRG** on the PRG Web
 ## Table of Contents
 
 - [Getting Started](#getting-started)
+- [Guidelines for Forking This Project](#guidelines-for-forking-this-project)
 - [Closing](#closing)
 - [License](#license)
 - [Credits](#credits)
@@ -98,11 +99,15 @@ are both acceptable
 > [!WARNING]
 > You should not make any other changes other than adding your PRG Portfolio to the showcase page (and any Organization's you're apart of that utilize PRG). Any other changes will be rejected.
 
+## Guidelines for Forking This Project
+
+If you like this website and want to fork it and use it as a template for your own, I would suggest visiting the source of this website, another project I made specifically for my business website, [here](https://github.com/scottgriv/Business-Website). It is a more robust version of this website, with more features and functionality; the `README` is also more detailed and comprehensive. The finished product can be viewed at [nightowllabs.io](https://nightowllabs.io).
+
+Please review the forking guidelines in the [Business-Website](https://github.com/scottgriv/Business-Website) `README` prior to forking it.
+
 ## Closing
 
 Thank you for using **PRG**! I hope you find it useful. If you have any questions, comments, or suggestions, please feel free to reach out to me. I would love to hear from you!
-
-If you like this website and want to use it as a template for your own, I would suggest visiting the source of this website, another project I made specifically for my business website, [here](https://github.com/scottgriv/Business-Website). It is a more robust version of this website, with more features and functionality; the README is also more detailed and comprehensive. The finished product can be viewed at [nightowllabs.io](https://nightowllabs.io).
 
 ## License
 
