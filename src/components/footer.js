@@ -30,6 +30,13 @@ const Footer = () => {
             >
               <i className="fa-solid fa-code-fork fa-bounce"></i>{" "}
             </a>
+            <a
+              href="https://www.buymeacoffee.com/scottgriv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa-solid fa-mug-hot fa-bounce"></i>{" "}
+            </a>
           </div>
         </div>
         <div id="pagefoot">
