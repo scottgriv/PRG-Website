@@ -8,7 +8,7 @@ export default function Support() {
       <p>
         Every contribution helps us continue to develop and maintain the future
         of PRG. If you'd like to support the project, please consider donating
-        to PRGs creator, <b>Scott Grivner's</b>{" "}
+        to PRG's creator, <b>Scott Grivner's</b>{" "}
         <a
           href="https://www.buymeacoffee.com/scottgriv"
           target="_blank"
@@ -16,6 +16,15 @@ export default function Support() {
         >
           <b>Buy Me a Coffee</b>.
         </a>{" "}
+      </p>
+      <p align="center">
+        <a href="https://www.buymeacoffee.com/scottgriv" target="_blank" rel="noreferrer">
+        <img
+            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+            alt="Buy Me A Coffee"
+            className="support-logo"
+          />
+        </a>
       </p>
       <p>More ways to support PRG coming soon!</p>
       <hr />

@@ -108,6 +108,17 @@ a {
   transform: scale(1.03); /* Enlarge the icon on hover */
 }
 
+.support-logo {
+  transition: transform 0.3s; /* Smooth transform transition */
+  max-width: 100%; /* To make sure image never exceeds its parent width */
+  height: auto; /* Maintains the aspect ratio */
+  width: 217px;
+}
+
+.support-logo:hover {
+  transform: scale(1.03); /* Enlarge the icon on hover */
+}
+
 .landing-container h1,
 .landing-container h2,
 .landing-container p {
