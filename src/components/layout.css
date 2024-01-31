@@ -95,6 +95,8 @@ a {
 .mobile-logo {
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
+  border-top-left-radius: 10px;   /* Top left corner */
+  border-top-right-radius: 10px;  /* Top right corner */
 }
 
 .landing-logo {
@@ -372,22 +374,28 @@ a {
   font-size: 15px; /* Set default font size */
 }
 
+/* This is to ensure that hover links retain the intended style */
 .sidebar button:hover {
   background-color: #fff;
   color: #000;
-  text-decoration: none; /* Removed the underline on hover */
 }
 
-.sidebar button:focus {
-  background-color: #fff; /* Highlight on focus */
-  color: #000;
-  outline: none;
+/* This is to ensure that visited links retain the intended style */
+.sidebar button:visited {
+  color: #fff;
 }
 
-/* Make the side bar button appear active by default */
-.sidebar button.active {
+/* Specific rule for visited links when hovered */
+.sidebar button:visited:hover {
+  color: #fff;
+}
+
+/* Higher specificity for active links */
+.sidebar button.active, 
+.sidebar button.active:hover, 
+.sidebar button.active:visited {
   background-color: #fff;
-  color: #000;
+  color: #fff;
 }
 
 .content {
