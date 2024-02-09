@@ -36,7 +36,7 @@ export default function Categories() {
       <p>
         Check out an example of what the final categorized product, a PRG Portfolio, looks like {" "}
         <a
-          href="https://prgoptimized.com"
+          href="https://prgportfolio.com"
           target="_blank"
           rel="noreferrer"
         >here</a>.

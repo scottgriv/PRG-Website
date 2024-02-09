@@ -47,11 +47,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/about" activeClassName="active">
-                About
-              </Link>
-            </li>
-            <li>
               <Link to="/support" activeClassName="active">
                 Support
               </Link>
