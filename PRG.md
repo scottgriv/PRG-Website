@@ -13,7 +13,7 @@ This file is used to connect this repository to the **PRG** project categorizati
 ## Project Information
 
 **Repository Tier:** Silver <br>
-**Technology:** Gatsby, Netlify, React, JavaScript, HTML, CSS <br>
+**Technology:** Gatsby.js, Netlify, React, JavaScript, HTML, CSS <br>
 **Category:** SPA, Product Website <br>
 **Order:** 4 <br>
 
