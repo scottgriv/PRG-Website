@@ -29,6 +29,7 @@ export default function Guidelines() {
             }}
           >
             <a
+              className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/category_guidelines.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -55,7 +56,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/brand_guidelines.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -81,7 +82,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/readme_guidelines.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -95,7 +96,7 @@ export default function Guidelines() {
               <br />
               <b>README Guidelines</b>
             </a>
-            <p>Guidelines for repository READMEs.</p>
+            <p>Guidelines for repository <span class="code-inline">READMEs</span>.</p>
           </div>
           <div
             style={{
@@ -105,7 +106,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/repository_structure_guidelines.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -131,7 +132,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/repository_settings_guidelines.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -155,7 +156,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://prgoptimized.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -181,7 +182,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/table_generator_guide.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -208,7 +209,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/badge_reference_guide.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -234,7 +235,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/templates/template_guide.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -258,7 +259,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Platinum-Tier-Template"
               target="_blank"
               rel="noopener noreferrer"
@@ -284,7 +285,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Gold-Tier-Template"
               target="_blank"
               rel="noopener noreferrer"
@@ -308,7 +309,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Silver-Tier-Template"
               target="_blank"
               rel="noopener noreferrer"
@@ -334,7 +335,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Bronze-Tier-Templates"
               target="_blank"
               rel="noopener noreferrer"
@@ -358,7 +359,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/PRG.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -384,7 +385,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/scripts/project_tier_table_generator.py"
               target="_blank"
               rel="noopener noreferrer"
@@ -408,7 +409,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -434,7 +435,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/categories/project_tier_table_private.md"
               target="_blank"
               rel="noopener noreferrer"
@@ -460,7 +461,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/templates/license_examples"
               target="_blank"
               rel="noopener noreferrer"
@@ -489,7 +490,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://prgoptimized.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -513,7 +514,7 @@ export default function Guidelines() {
               border: "1px solid #7A7A7A",
             }}
           >
-            <a
+            <a className="regular-link"
               href="https://github.com/scottgriv/PRG-Website"
               target="_blank"
               rel="noopener noreferrer"
@@ -534,17 +535,18 @@ export default function Guidelines() {
           </div>
         </div>
       </div>
-      <h3>Key</h3>
+      <div className="key-container">
+      <h3>🔑 Key</h3>
       <table
         style={{
-          width: "100%",
+          width: "40%",
           borderCollapse: "collapse",
           border: "1px solid #7A7A7A",
         }}
       >
         <thead>
           <tr style={{ border: "1px solid #7A7A7A" }}>
-            <th style={{ border: "1px solid #7A7A7A" }}>Color</th>
+            <th style={{ border: "1px solid #7A7A7A" }}>Icon Color</th>
             <th style={{ border: "1px solid #7A7A7A" }}>Document Type</th>
           </tr>
         </thead>
@@ -599,6 +601,7 @@ export default function Guidelines() {
           </tr>
         </tbody>
       </table>
+      </div>
       <br />
       <hr />
     </Layout>

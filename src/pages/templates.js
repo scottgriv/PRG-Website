@@ -6,12 +6,12 @@ export default function Templates() {
     <Layout>
       <h1 className="title-header-large">PRG README Templates</h1>
       <p>
-        Each tier category has its own README template. The templates are designed to be easy to
+        Each tier category has its own <span class="code-inline">README</span> template. The templates are designed to be easy to
         use and customize, and are fully compatible with GitHub's Markdown syntax.
       </p>
       <p>
       Visit the{" "}
-        <a
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/templates/template_guide.md"
           target="_blank"
           rel="noreferrer"
@@ -21,14 +21,14 @@ export default function Templates() {
         for more information on how to use them.
       </p>
       <p>
-        Below are the included README templates to help you get your
+        Below are the included <span class="code-inline">README</span> templates to help you get your
         repositories up and running quickly using the PRG system. 
       </p>
       <hr />
       <div className="project-card">
         <h3>
           {" "}
-          <a
+          <a className="regular-link"
             href="https://github.com/scottgriv/PRG-Platinum-Tier-Template"
             target="_blank"
             rel="noreferrer"
@@ -36,7 +36,7 @@ export default function Templates() {
             PRG Platinum Tier Template
           </a>
         </h3>
-        <a
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Platinum-Tier-Template"
           target="_blank"
           rel="noreferrer"
@@ -62,7 +62,7 @@ export default function Templates() {
       <div className="project-card">
         <h3>
           {" "}
-          <a
+          <a className="regular-link"
             href="https://github.com/scottgriv/PRG-Gold-Tier-Template"
             target="_blank"
             rel="noreferrer"
@@ -70,7 +70,7 @@ export default function Templates() {
             PRG Gold Tier Template
           </a>
         </h3>
-        <a
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Gold-Tier-Template"
           target="_blank"
           rel="noreferrer"
@@ -96,7 +96,7 @@ export default function Templates() {
       <div className="project-card">
         <h3>
           {" "}
-          <a
+          <a className="regular-link"
             href="https://github.com/scottgriv/PRG-Silver-Tier-Template"
             target="_blank"
             rel="noreferrer"
@@ -104,7 +104,7 @@ export default function Templates() {
             PRG Silver Tier Template
           </a>
         </h3>
-        <a
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Silver-Tier-Template"
           target="_blank"
           rel="noreferrer"
@@ -138,7 +138,7 @@ export default function Templates() {
             PRG Bronze Tier Template
           </a>
         </h3>
-        <a
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Bronze-Tier-Template"
           target="_blank"
           rel="noreferrer"

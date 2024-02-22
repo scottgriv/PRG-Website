@@ -1,5 +1,6 @@
 import React from "react"
 import { CONFIG } from "./config.js"
+import Icon from './icons/icon.js'; // Corrected import statement
 
 const Footer = () => {
   const showFooter = CONFIG.showFooter
@@ -9,6 +10,13 @@ const Footer = () => {
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
           <div className="social-links">
+            <a
+              href="https://prgportfolio.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="PRG" className="bounce" />
+            </a>
             <a
               href="mailto:support@nightowllabs.io"
               target="_blank"
@@ -35,12 +43,12 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-solid fa-mug-hot fa-bounce"></i>{" "}
+              <Icon name="BMC" className="bounce" />
             </a>
           </div>
         </div>
         <div id="pagefoot">
-          Copyright © 2023-{new Date().getFullYear()} Night Owl Labs, LLC. - All
+          Copyright © 2023-{new Date().getFullYear()} Scott Grivner + Night Owl Labs, LLC. - All
           Rights Reserved.
         </div>
       </div>

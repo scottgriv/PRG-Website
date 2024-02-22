@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { useStaticQuery, graphql } from "gatsby"
+import Icon from '../components/icons/icon.js'; // Corrected import statement
 
 export default function Showcase() {
   const data = useStaticQuery(graphql`
@@ -47,13 +48,13 @@ export default function Showcase() {
         in your GitHub portfolio. By harnessing the power of GitHub Actions, it
         automatically crafts a tier-based display, neatly categorizing your
         repositories for enhanced clarity and impact. Beyond mere organization,
-        it sets forth comprehensive guidelines, templates for READMEs, and
+        it sets forth comprehensive guidelines, templates for <span class="code-inline">READMEs</span>, and
         overall repository structure, ensuring each project is showcased with
         maximum professionalism and coherence.
       </p>
       <p>
-        Visit the{" "}
-        <a
+      <Icon name="PRG" /> Visit the{" "}
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
           target="_blank"
           rel="noreferrer"
@@ -62,15 +63,26 @@ export default function Showcase() {
         </a>{" "}
         GitHub repository to get started!
       </p>
+      <p>
+      <Icon name="PRG" /> Check out a finished {" "}
+        <a className="regular-link"
+          href="https://prgportfolio.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <b>PRG Portfolio</b>
+        </a>{" "}
+        in action and see how it can help you categorize your projects and repositories!
+      </p>
       <hr />
       <h2 className="title-header-small">PRG Showcase</h2>
       <p>
         The <b>PRG Showcase</b> is a collection of personal and organizational
-        accounts that use <b>PRG</b> to showcase their projects. 
+        accounts that use <b>PRG</b> to showcase their projects and portfolios. 
       </p>
       <p>
-        If you'd like to add your repository to the list, please submit a pull request to the{" "}
-        <a
+        If you'd like to get recognition and add your GitHub profile and <b>PRG Portfolio</b> to the below showcase, please follow the <span class="code-inline">README</span> instructions and submit a pull request to the{" "}
+        <a className="regular-link"
           href="https://github.com/scottgriv/PRG-Website"
           target="_blank"
           rel="noreferrer"
@@ -101,7 +113,7 @@ export default function Showcase() {
                 />
               </a>
               <div className="github-link-container">
-                <a href={githubURL} target="_blank" rel="noreferrer">
+                <a className="regular-link" href={githubURL} target="_blank" rel="noreferrer">
                   @{githubUsername}
                 </a>
               </div>

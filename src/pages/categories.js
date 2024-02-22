@@ -25,6 +25,7 @@ export default function Categories() {
       <p>
       Visit the{" "}
         <a
+          className="regular-link"
           href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines/blob/main/guidelines/category_guidelines.md"
           target="_blank"
           rel="noreferrer"
@@ -36,6 +37,7 @@ export default function Categories() {
       <p>
         Check out an example of what the final categorized product, a PRG Portfolio, looks like {" "}
         <a
+          className="regular-link"
           href="https://prgportfolio.com"
           target="_blank"
           rel="noreferrer"

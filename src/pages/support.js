@@ -8,18 +8,18 @@ export default function Support() {
       <h2 className="title-header-small">Who made PRG?</h2>
       <p>
         <b>PRG</b> was created by software engineer{" "}
-        <a href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
+        <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
           Scott Grivner
         </a>{" "}
         and UI/UX designer{" "}
-        <a
+        <a className="regular-link"
           href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
           target="_blank"
           rel="noreferrer"
         >
           Anya Druzhenko
         </a>{" "}
-        of <a href="https://nightowllabs.io">Night Owl Labs</a>, a software and
+        of <a className="regular-link" href="https://nightowllabs.io">Night Owl Labs</a>, a software and
         design company that specializes in crafting beautiful and functional
         software.
       </p>
@@ -28,7 +28,7 @@ export default function Support() {
         Every contribution helps us continue to develop and maintain the future
         of PRG. If you'd like to support the project, please consider donating
         to PRG's creator, <b>Scott Grivner's</b>{" "}
-        <a
+        <a className="regular-link"
           href="https://www.buymeacoffee.com/scottgriv"
           target="_blank"
           rel="noreferrer"
@@ -37,8 +37,8 @@ export default function Support() {
         </a>{" "}
       </p>
       <p align="center">
-        <a href="https://www.buymeacoffee.com/scottgriv" target="_blank" rel="noreferrer">
-        <img
+        <a className="regular-link" href="https://www.buymeacoffee.com/scottgriv" target="_blank" rel="noreferrer">
+        <img 
             src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
             alt="Buy Me A Coffee"
             className="support-logo"
