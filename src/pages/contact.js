@@ -10,7 +10,7 @@ export default function Contact() {
         inquiries, feel free to reach out to us through the following channels:
       </p>
       <hr />
-      <h2>Email</h2>
+      <h2>Email us!</h2>
       <p>For general inquiries, support, or consulting services:</p>
       <i className="fa-regular fa-envelope"></i>&nbsp;
       <a className="regular-link"
@@ -20,9 +20,7 @@ export default function Contact() {
          info@nightowllabs.io
       </a>
       <br />
-      <br />
-      <hr />
-      <h2>Connect with Us!</h2>
+      <h2>Connect with us!</h2>
       <p>Follow or contact us on our social platforms:</p>
       <i className="fab fa-github"></i>&nbsp;
       <a
@@ -52,6 +50,16 @@ export default function Contact() {
         rel="noreferrer"
       >
        @Night_Owl_Labs on X
+      </a>
+      <br />
+      <h2>Visit our website!</h2>
+      <p>Visit the Night Owl Labs website to find out more about how NOL can help you:</p>
+      <i class="fa-solid fa-briefcase"></i>&nbsp;
+      <a className="regular-link"
+         href="https://nightowllabs.io" 
+         target="_blank" 
+         rel="noreferrer">
+         nightowllabs.io
       </a>
       <br />
       <br />
@@ -84,7 +92,6 @@ export default function Contact() {
           </a>
         </div>
         </div>
-      <hr />
     </Layout>
   )
 }

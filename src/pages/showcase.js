@@ -41,7 +41,7 @@ export default function Showcase() {
   return (
     <Layout>
       <h1 className="title-header-small">Welcome to PRG! 👋</h1>
-      <h2 className="title-header-small">What is PRG?</h2>
+      <h2>What is PRG?</h2>
       <p>
         <b>Personal Repository Guidelines</b>, or <b>PRG</b> for short, is a
         system that transforms the way repositories are organized and presented
@@ -75,7 +75,7 @@ export default function Showcase() {
         in action and see how it can help you categorize your projects and repositories!
       </p>
       <hr />
-      <h2 className="title-header-small">PRG Showcase</h2>
+      <h2>PRG Showcase</h2>
       <p>
         The <b>PRG Showcase</b> is a collection of personal and organizational
         accounts that use <b>PRG</b> to showcase their projects and portfolios. 

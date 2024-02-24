@@ -4,8 +4,8 @@ import Layout from "../components/layout"
 export default function Support() {
   return (
     <Layout>
-      <h1 className="title-header-small">Support the PRG Project!</h1>
-      <h2 className="title-header-small">Who made PRG?</h2>
+      <h1>Support the PRG Project!</h1>
+      <h2>Who made PRG?</h2>
       <p>
         <b>PRG</b> was created by software engineer{" "}
         <a className="regular-link" href="https://scottgrivner.dev" target="_blank" rel="noreferrer">
@@ -23,7 +23,7 @@ export default function Support() {
         design company that specializes in crafting beautiful and functional
         software.
       </p>
-      <h2 className="title-header-small">How can I help out?</h2>
+      <h2>How can I help out?</h2>
       <p>
         Every contribution helps us continue to develop and maintain the future
         of PRG. If you'd like to support the project, please consider donating
