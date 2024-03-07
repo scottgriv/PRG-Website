@@ -47,7 +47,7 @@ export default function Support() {
           />
         </a>
       </p>
-      <li>Or consider sponsoring <b>Scott Grivner's</b> on {" "}
+      <li>Or consider sponsoring <b>Scott Grivner</b> on {" "}
         <a className="regular-link"
           href="https://github.com/sponsors/scottgriv"
           target="_blank"
