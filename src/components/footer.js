@@ -47,6 +47,16 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <iframe
+              src="https://github.com/sponsors/scottgriv/button"
+              title="Sponsor scottgriv"
+              height="32"
+              width="114"
+              style={{
+                border: 0,
+                borderRadius: '6px',
+              }}
+            />
         <div id="pagefoot">
           Copyright © 2023-{new Date().getFullYear()} Scott Grivner + Night Owl Labs, LLC. - All
           Rights Reserved.

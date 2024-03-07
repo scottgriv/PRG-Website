@@ -26,16 +26,18 @@ export default function Support() {
       <h2>How can I help out?</h2>
       <p>
         Every contribution helps us continue to develop and maintain the future
-        of PRG. If you'd like to support the project, please consider donating
+        of PRG. 
+      </p>
+      <li>If you'd like to support the project, please consider donating
         to PRG's creator, <b>Scott Grivner's</b>{" "}
         <a className="regular-link"
           href="https://www.buymeacoffee.com/scottgriv"
           target="_blank"
           rel="noreferrer"
         >
-          <b>Buy Me a Coffee</b>.
-        </a>{" "}
-      </p>
+          <b>Buy Me a Coffee</b>
+        </a>.
+      </li>
       <p align="center">
         <a className="regular-link" href="https://www.buymeacoffee.com/scottgriv" target="_blank" rel="noreferrer">
         <img 
@@ -44,6 +46,26 @@ export default function Support() {
             className="support-logo"
           />
         </a>
+      </p>
+      <li>Or consider sponsoring <b>Scott Grivner's</b> on {" "}
+        <a className="regular-link"
+          href="https://github.com/sponsors/scottgriv"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <b>GitHub Sponsors</b>
+        </a>.
+      </li>
+      <p align="center">
+      <iframe
+        src="https://github.com/sponsors/scottgriv/card"
+        title="Sponsor scottgriv"
+        height="225"
+        width="600"
+        style={{
+          border: 0,
+        }}
+      />
       </p>
       <hr />
     </Layout>
