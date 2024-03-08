@@ -57,23 +57,13 @@ export default function Support() {
         </a>.
       </li>
       <p align="center">
-        <div style={{ 
-            display: 'flex', 
-            justifyContent: 'center', // Center horizontally
-            alignItems: 'center', // Center vertically
-          }}>
-            <div style={{ overflow: 'hidden', borderRadius: '6px' }}>
-              <iframe
-                src="https://github.com/sponsors/scottgriv/card"
-                title="Sponsor scottgriv"
-                height="225"
-                width="600"
-                style={{
-                  border: 0,
-                }}
-              />
-            </div>
-          </div>
+        <a className="regular-link" href="https://github.com/sponsors/scottgriv" target="_blank" rel="noreferrer">
+        <img 
+            src="/images/company/github_sponsors.png"
+            alt="GitHub Sponsors"
+            className="support-logo"
+          />
+        </a>
       </p>
       <hr />
     </Layout>
