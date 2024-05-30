@@ -32,6 +32,11 @@ const Header = () => {
               </Link>
             </li>
             <li>
+              <Link to="/about" activeClassName="active">
+                About
+              </Link>
+            </li>
+            <li>
               <Link to="https://prgportfolio.com" target="_blank" rel="noreferrer">
                 Portfolio
               </Link>
