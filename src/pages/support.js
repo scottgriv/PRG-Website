@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 export default function Support() {
   return (
     <Layout>
-      <h1>Support the PRG Project!</h1>
+      <h1>Become a Supporter of the PRG Project!</h1>
       <h2>Who made PRG?</h2>
       <p>
         <b>PRG</b> was created by software engineer{" "}
@@ -65,7 +65,54 @@ export default function Support() {
           />
         </a>
       </p>
+      <li>All supporters will be acknowledged on the {" "}
+        <a className="regular-link"
+          href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <b>PRG GitHub Repository</b>
+        </a>!
+      </li>
+      <h2>Email us!</h2>
+      <p>For general inquiries or support, feel free to reach out:</p>
+      <i className="fa-regular fa-envelope"></i>&nbsp;
+      <a className="regular-link"
+         href="mailto:info@nightowllabs.io" 
+         target="_blank" 
+         rel="noreferrer">
+         info@nightowllabs.io
+      </a>
       <hr />
+      <div className="closing-wrapper">
+        <p>Like this website? Feel free to...<br />
+        <br />
+        <i id="github-fork" className="fa-solid fa-code-fork"></i>&nbsp;
+          <a
+            className="regular-link"
+            href="https://github.com/scottgriv/business-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <b>Fork and Star it on GitHub!</b>
+          </a>
+          &nbsp;<i id="github-star" className="fa-solid fa-star"></i>
+        </p>  
+      </div>
+      <div className="social-links-wrapper">
+        <div className="social-links">
+          <a href="https://github.com/Night-Owl-Labs">
+          <img
+            src="/images/company/nol-footer.png"
+            alt="Night Owl Labs"
+            title="Night Owl Labs"
+            className="landing-logo"
+            id="landing-footer"
+          />
+          </a>
+        </div>
+        </div>
+        <hr />
     </Layout>
   )
 }

@@ -29,7 +29,7 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        Night Owl Labs on GitHub
+        Night Owl Labs
       </a>
       <br /> <br />
       <i className="fab fa-linkedin"></i>&nbsp;
@@ -39,7 +39,7 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-        Night Owl Labs on LinkedIn
+        Night Owl Labs
       </a>
       <br /> <br />
       <i className="fa-brands fa-x-twitter"></i>&nbsp;
@@ -49,7 +49,17 @@ export default function Contact() {
         target="_blank"
         rel="noreferrer"
       >
-       @Night_Owl_Labs on X
+       @Night_Owl_Labs
+      </a>
+      <br /> <br />
+      <i className="fa-brands fa-x-twitter"></i>&nbsp;
+      <a
+        className="regular-link"
+        href="https://www.instagram.com/nightowllabsllc"
+        target="_blank"
+        rel="noreferrer"
+      >
+       @NightOwlLabsLLC
       </a>
       <br />
       <h2>Visit our website!</h2>
@@ -67,7 +77,7 @@ export default function Contact() {
       <div className="closing-wrapper">
         <p>Like this website? Feel free to...<br />
         <br />
-        <i id="github-fork" className="fa-solid fa-code-fork fa-bounce"></i>&nbsp;
+        <i id="github-fork" className="fa-solid fa-code-fork"></i>&nbsp;
           <a
             className="regular-link"
             href="https://github.com/scottgriv/business-website"
@@ -76,7 +86,7 @@ export default function Contact() {
           >
             Fork and Star it on GitHub!
           </a>
-          &nbsp;<i id="github-star" className="fa-solid fa-star fa-bounce"></i>
+          &nbsp;<i id="github-star" className="fa-solid fa-star"></i>
         </p>  
       </div>
       <div className="social-links-wrapper">

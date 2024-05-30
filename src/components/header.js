@@ -53,12 +53,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/support" activeClassName="active">
-                Support
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" activeClassName="active">
-                Contact
+                Become a Supporter
               </Link>
             </li>
             {/* ... other navigation items */}
