@@ -503,7 +503,6 @@ button:focus {
 }
 
 .projects-image {
-  border-radius: 25px;
   transition: transform 0.3s; /* Smooth transform transition */
   max-width: 100%; /* To make sure image never exceeds its parent width */
   height: auto; /* Maintains the aspect ratio */
