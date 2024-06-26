@@ -273,6 +273,7 @@ a {
 }
 
 #github-fork {
+  font-size: 22px; /* Shrink Fork Icon size */
   color: #6236FF;
 }
 
@@ -714,6 +715,10 @@ button:focus {
   *:before,
   *:after {
     box-sizing: border-box;
+  }
+
+  #github-fork {
+    font-size: 18px; /* Shrink Fork Icon size */
   }
 
   .landing-container {
