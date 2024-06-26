@@ -10,7 +10,7 @@ const Footer = () => {
       <div id="pagefoot" style={{ display: showFooter ? "block" : "none" }}>
         <div className="social-links-wrapper">
           <div className="social-links">
-            <a
+          <a
               href="https://prgportfolio.com"
               target="_blank"
               rel="noreferrer"
@@ -18,11 +18,11 @@ const Footer = () => {
               <Icon name="PRG" className="bounce" />
             </a>
             <a
-              href="mailto:support@nightowllabs.io"
+              href="https://nightowllabs.io"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fa-regular fa-envelope fa-bounce"></i>
+              <Icon name="NOL" className="bounce" />
             </a>
             <a
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"

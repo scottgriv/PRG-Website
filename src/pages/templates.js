@@ -22,7 +22,7 @@ export default function Templates() {
       </p>
       <p>
         Below are the included <span class="code-inline">README</span> templates to help you get your
-        repositories up and running quickly using the PRG system. 
+        repositories up and running quickly using the PRG framework. 
       </p>
       <hr />
       <div className="project-card">

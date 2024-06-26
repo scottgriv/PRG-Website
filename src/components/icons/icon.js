@@ -20,6 +20,7 @@ import {
   IconTwitter,
   IconYouTube,
   IconPRG,
+  IconNOL,
 } from '../icons';
 
 const Icon = ({ name, className }) => {
@@ -60,6 +61,8 @@ const Icon = ({ name, className }) => {
       return <IconTwitter />;
     case 'YouTube':
       return <IconYouTube />;
+    case 'NOL':
+      return <IconNOL className={className} />;
     case 'PRG':
       return <IconPRG className={className} />;
     default:

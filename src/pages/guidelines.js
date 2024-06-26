@@ -11,7 +11,7 @@ export default function Guidelines() {
       </p>
       <p>
         Below are the included guidelines to help you get your repositories up
-        and running quickly using the PRG system. Visit each link to learn more
+        and running quickly using the PRG framework. Visit each link to learn more
         about each guideline.
       </p>
       <hr />
