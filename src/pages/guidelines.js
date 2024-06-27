@@ -14,7 +14,6 @@ export default function Guidelines() {
         and running quickly using the PRG framework. Visit each link to learn more
         about each guideline.
       </p>
-      <hr />
       <br />
       <div style={{ display: "table", margin: "auto" }}>
         {/* Row 1 */}
