@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
       </div>
         <div id="pagefoot">
-          Copyright © 2023-{new Date().getFullYear()} Scott Grivner + Night Owl Labs, LLC. - All
+          Copyright © 2023-{new Date().getFullYear()} Scott Grivner & Night Owl Labs, LLC. - All
           Rights Reserved.
         </div>
       </div>
