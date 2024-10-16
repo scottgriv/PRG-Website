@@ -211,6 +211,11 @@ a {
   color: #fff;
 }
 
+#portfoliotab {
+  background-color: #3E1099 !important;
+  color: #fff !important;
+}
+
 #pagefoot {
   font-size: 0.8em; /* Adjust the font size to make it smaller */
   color: #555; /* Font color */

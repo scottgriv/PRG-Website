@@ -32,11 +32,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="https://prgportfolio.com" target="_blank" rel="noreferrer">
-                Portfolio
-              </Link>
-            </li>
-            <li>
               <Link to="/categories" activeClassName="active">
                 Categories
               </Link>
@@ -59,6 +54,11 @@ const Header = () => {
             <li>
               <Link to="/support" activeClassName="active">
                 Become a Supporter
+              </Link>
+            </li>
+            <li>
+              <Link to="https://prgportfolio.com" target="_blank" rel="noreferrer" id="portfoliotab">
+                Portfolio
               </Link>
             </li>
             {/* ... other navigation items */}
