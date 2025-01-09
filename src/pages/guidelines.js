@@ -156,7 +156,7 @@ export default function Guidelines() {
             }}
           >
             <a className="regular-link"
-              href="https://prgoptimized.netlify.app/"
+              href="https://prgoptimized.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -490,7 +490,7 @@ export default function Guidelines() {
             }}
           >
             <a className="regular-link"
-              href="https://prgoptimized.netlify.app/"
+              href="https://prgoptimized.netlify.app"
               target="_blank"
               rel="noopener noreferrer"
             >

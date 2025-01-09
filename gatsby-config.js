@@ -12,7 +12,7 @@ module.exports = {
     title: `Personal Repository Guidelines (PRG)`,
     description: `PRG is a repository categorization and guideline framework. By harnessing the power of GitHub Actions, it automatically crafts a tier-based display, neatly categorizing your repositories for enhanced clarity and impact. Beyond mere organization, it sets forth comprehensive guidelines, templates for READMEs, and overall repository structure, ensuring each project is showcased with maximum professionalism and coherence.`,
     author: `@scottgrivner`,
-    siteUrl: `https://prgoptimized.netlify.app/`,
+    siteUrl: `https://prgoptimized.netlify.app`,
   },
   plugins: [
     {
