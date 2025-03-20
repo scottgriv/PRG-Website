@@ -553,7 +553,7 @@ export default function Guidelines() {
           <tr style={{ border: "1px solid #7A7A7A" }}>
             <td style={{ border: "1px solid #7A7A7A" }}>
               <img
-                src="https://via.placeholder.com/20/6236FF/000000?text=+"
+                src="https://placehold.co/20x20/6236FF/6236FF"
                 alt="Color 6236FF"
               />
             </td>
@@ -562,7 +562,7 @@ export default function Guidelines() {
           <tr style={{ border: "1px solid #7A7A7A" }}>
             <td style={{ border: "1px solid #7A7A7A" }}>
               <img
-                src="https://via.placeholder.com/20/680F7F/000000?text=+"
+                src="https://placehold.co/20x20/680F7F/680F7F"
                 alt="Color 680F7F"
               />
             </td>
@@ -571,19 +571,19 @@ export default function Guidelines() {
           <tr style={{ border: "1px solid #7A7A7A" }}>
             <td style={{ border: "1px solid #7A7A7A" }}>
               <img
-                src="https://via.placeholder.com/20/E5E4E2/000000?text=+"
+                src="https://placehold.co/20x20/E5E4E2/E5E4E2"
                 alt="Color E5E4E2"
               />
               <img
-                src="https://via.placeholder.com/20/FFD700/000000?text=+"
+                src="https://placehold.co/20x20/FFD700/FFD700"
                 alt="Color FFD700"
               />
               <img
-                src="https://via.placeholder.com/20/C0C0C0/000000?text=+"
+                src="https://placehold.co/20x20/C0C0C0/C0C0C0"
                 alt="Color C0C0C0"
               />
               <img
-                src="https://via.placeholder.com/20/CD7F32/000000?text=+"
+                src="https://placehold.co/20x20/CD7F32/CD7F32"
                 alt="Color CD7F32"
               />
             </td>
@@ -592,7 +592,7 @@ export default function Guidelines() {
           <tr style={{ border: "1px solid #7A7A7A" }}>
             <td style={{ border: "1px solid #7A7A7A" }}>
               <img
-                src="https://via.placeholder.com/20/FFFFFF/000000?text=+"
+                src="https://placehold.co/20x20/FFFFFF/FFFFFF"
                 alt="Color FFFFFF"
               />
             </td>
