@@ -58,7 +58,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="https://prgportfolio.com" target="_blank" rel="noreferrer" id="portfoliotab">
-                Portfolio
+                PRG Portfolio Example
               </Link>
             </li>
             {/* ... other navigation items */}
