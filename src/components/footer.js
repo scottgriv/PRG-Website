@@ -18,13 +18,6 @@ const Footer = () => {
               <Icon name="PRG" className="bounce" />
             </a>
             <a
-              href="https://nightowllabs.io"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Icon name="NOL" className="bounce" />
-            </a>
-            <a
               href="https://github.com/scottgriv/PRG-Personal-Repository-Guidelines"
               target="_blank"
               rel="noreferrer"
@@ -37,6 +30,13 @@ const Footer = () => {
               rel="noreferrer"
             >
               <i className="fa-solid fa-code-fork fa-bounce"></i>{" "}
+            </a>
+            <a
+              href="https://nightowllabs.io"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Icon name="NOL" className="bounce" />
             </a>
             <a
               href="https://www.buymeacoffee.com/scottgriv"
