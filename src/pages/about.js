@@ -10,7 +10,7 @@ export default function About() {
         <b>PRG</b> was created by software engineer{" "}
         <a
           className="regular-link"
-          href="https://scottgrivner.dev"
+          href="https://linktr.ee/scottgriv"
           target="_blank"
           rel="noreferrer"
         >
