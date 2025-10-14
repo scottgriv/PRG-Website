@@ -101,9 +101,10 @@ are both acceptable
 
 ## Guidelines for Forking This Project
 
-If you like this website and want to fork it and use it as a template for your own, I would suggest visiting the source of this website, another project I made specifically for my business website, [here](https://github.com/scottgriv/Business-Website). It is a more robust version of this website, with more features and functionality; the `README` is also more detailed and comprehensive. The finished product can be viewed at [nightowllabs.io](https://nightowllabs.io).
+If you like this website and want to fork it and use it as a template for your own, I would suggest visiting the source of this website, another project I made specifically for businesses, [here](https://github.com/scottgriv/Business-Website). It is a more robust version of this website, with more features and functionality; the `README` is also more detailed and comprehensive. The finished product can be viewed at [https://bizwebsite.netlify.app](https://bizwebsite.netlify.app).
 
-Please review the forking guidelines in the [Business-Website](https://github.com/scottgriv/Business-Website) `README` prior to forking it.
+> [!NOTE]
+> Please review the forking guidelines in the [Business-Website](https://github.com/scottgriv/Business-Website) `README` prior to forking the above repo/website.
 
 ## Closing
 
