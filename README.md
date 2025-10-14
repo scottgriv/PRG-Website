@@ -47,7 +47,6 @@ If you would like to showcase your GitHub portfolio using **PRG** on the PRG Web
 ## Table of Contents
 
 - [Getting Started](#getting-started)
-- [Guidelines for Forking This Project](#guidelines-for-forking-this-project)
 - [Closing](#closing)
 - [License](#license)
 - [Credits](#credits)
@@ -98,13 +97,6 @@ are both acceptable
 
 > [!WARNING]
 > You should not make any other changes other than adding your PRG Portfolio to the showcase page (and any Organization's you're apart of that utilize PRG). Any other changes will be rejected.
-
-## Guidelines for Forking This Project
-
-If you like this website and want to fork it and use it as a template for your own, I would suggest visiting the source of this website, another project I made specifically for businesses, [here](https://github.com/scottgriv/Business-Website). It is a more robust version of this website, with more features and functionality; the `README` is also more detailed and comprehensive. The finished product can be viewed at [https://bizwebsite.netlify.app](https://bizwebsite.netlify.app).
-
-> [!NOTE]
-> Please review the forking guidelines in the [Business-Website](https://github.com/scottgriv/Business-Website) `README` prior to forking the above repo/website.
 
 ## Closing
 
