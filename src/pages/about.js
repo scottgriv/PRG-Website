@@ -19,7 +19,7 @@ export default function About() {
         and UI/UX designer{" "}
         <a
           className="regular-link"
-          href="https://www.linkedin.com/in/anya-druzhenko-56985a180"
+          href="https://www.linktr.ee/anyagriv"
           target="_blank"
           rel="noreferrer"
         >
@@ -65,23 +65,6 @@ export default function About() {
       <br />
       <br />
       <hr />
-      <div className="closing-wrapper">
-        <p>
-          Like this website? Feel free to...
-          <br />
-          <br />
-          <i id="github-fork" className="fa-solid fa-code-fork"></i>&nbsp;
-          <a
-            className="regular-link"
-            href="https://github.com/scottgriv/business-website"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <b>Fork and Star it on GitHub!</b>
-          </a>
-          &nbsp;<i id="github-star" className="fa-solid fa-star"></i>
-        </p>
-      </div>
       <div className="social-links-wrapper">
         <div className="social-links">
           <a href="https://github.com/Night-Owl-Labs">
